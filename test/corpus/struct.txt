@@ -1,0 +1,63 @@
+================
+Simple struct
+================
+
+#[solana]
+struct Player {
+    wallet: PublicKey,
+    level: u16,
+}
+
+---
+
+(source_file
+  (struct_definition
+    (attribute (identifier))
+    name: (identifier)
+    body: (struct_body
+      (field name: (identifier) type: (solana_type))
+      (field name: (identifier) type: (primitive_type)))))
+
+================
+Struct with account attribute
+================
+
+#[solana]
+#[account]
+struct TokenVault {
+    authority: PublicKey,
+    amount: u64,
+    is_initialized: bool,
+}
+
+---
+
+(source_file
+  (struct_definition
+    (attribute (identifier))
+    (attribute (identifier))
+    name: (identifier)
+    body: (struct_body
+      (field name: (identifier) type: (solana_type))
+      (field name: (identifier) type: (primitive_type))
+      (field name: (identifier) type: (primitive_type)))))
+
+================
+Struct with complex types
+================
+
+struct GameState {
+    players: Vec<PublicKey>,
+    winner: Option<PublicKey>,
+    scores: [u64],
+}
+
+---
+
+(source_file
+  (struct_definition
+    name: (identifier)
+    body: (struct_body
+      (field name: (identifier) type: (vec_type element: (solana_type)))
+      (field name: (identifier) type: (option_type inner: (solana_type)))
+      (field name: (identifier) type: (array_type element: (primitive_type))))))

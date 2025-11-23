@@ -1,0 +1,64 @@
+================
+Simple enum
+================
+
+#[solana]
+enum GameState {
+    Active,
+    Paused,
+    Finished,
+}
+
+---
+
+(source_file
+  (enum_definition
+    (attribute (identifier))
+    name: (identifier)
+    body: (enum_body
+      (enum_variant (identifier))
+      (enum_variant (identifier))
+      (enum_variant (identifier)))))
+
+================
+Enum with tuple variants
+================
+
+enum Action {
+    Transfer(PublicKey, u64),
+    Burn(u64),
+    Mint,
+}
+
+---
+
+(source_file
+  (enum_definition
+    name: (identifier)
+    body: (enum_body
+      (enum_variant (identifier) (solana_type) (primitive_type))
+      (enum_variant (identifier) (primitive_type))
+      (enum_variant (identifier)))))
+
+================
+Enum with struct variants
+================
+
+enum Message {
+    Move { x: u32, y: u32 },
+    Write { text: String },
+    Quit,
+}
+
+---
+
+(source_file
+  (enum_definition
+    name: (identifier)
+    body: (enum_body
+      (enum_variant (identifier) (struct_body
+        (field name: (identifier) type: (primitive_type))
+        (field name: (identifier) type: (primitive_type))))
+      (enum_variant (identifier) (struct_body
+        (field name: (identifier) type: (primitive_type))))
+      (enum_variant (identifier)))))

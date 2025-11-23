@@ -1,0 +1,61 @@
+{
+  "name": "tree-sitter-lumos",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for LUMOS schema language",
+  "main": "bindings/node",
+  "types": "bindings/node",
+  "scripts": {
+    "test": "tree-sitter test",
+    "build": "tree-sitter generate && node-gyp build",
+    "parse": "tree-sitter parse",
+    "install": "node-gyp-build",
+    "prebuildify": "prebuildify --napi --strip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getlumos/tree-sitter-lumos.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "parser",
+    "lumos",
+    "solana",
+    "schema",
+    "syntax"
+  ],
+  "files": [
+    "grammar.js",
+    "binding.gyp",
+    "prebuilds/**",
+    "bindings/node/*",
+    "queries/*",
+    "src/**"
+  ],
+  "author": "LUMOS Contributors",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/getlumos/tree-sitter-lumos/issues"
+  },
+  "homepage": "https://github.com/getlumos/tree-sitter-lumos#readme",
+  "dependencies": {
+    "node-addon-api": "^7.1.0",
+    "node-gyp": "^10.0.1",
+    "node-gyp-build": "^4.8.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.22.6",
+    "prebuildify": "^6.0.0"
+  },
+  "peerDependencies": {
+    "tree-sitter": "^0.21.0"
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.lumos",
+      "file-types": [
+        "lumos"
+      ],
+      "injection-regex": "lumos"
+    }
+  ]
+}
