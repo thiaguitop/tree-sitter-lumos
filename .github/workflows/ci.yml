@@ -26,13 +26,10 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci --ignore-scripts
-
-      - name: Install tree-sitter CLI
-        run: npm install -g tree-sitter-cli
+        run: npm ci
 
       - name: Generate parser
-        run: tree-sitter generate
+        run: npx tree-sitter-cli generate
 
       - name: Run tests
         run: npm test
@@ -52,13 +49,10 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci --ignore-scripts
-
-      - name: Install tree-sitter CLI
-        run: npm install -g tree-sitter-cli
+        run: npm ci
 
       - name: Verify grammar compiles
-        run: tree-sitter generate
+        run: npx tree-sitter-cli generate
 
       - name: Check for parser artifacts
         run: |
